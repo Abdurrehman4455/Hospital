@@ -15,7 +15,7 @@ const appStyle = {
 function App() {
   return (
     
-     <div style={appStyle}>
+     <div style={}>
    <div>
    
       <Router className=' '>
