@@ -7,7 +7,7 @@ module.exports = {
     extend: {},
     backgroundimage:
     {
-      'source-card':"url(src/Images/undraw_doctor_kw-5-l.svg)",
+      'bg-sourcecard':"url('src/Images/a.svg')",
     }
   },
   plugins: [],

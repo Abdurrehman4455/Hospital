@@ -9,13 +9,13 @@ import Home from './Compoments/Home';
 import Aboutus from './Compoments/Aboutus';
 import './index.css';
 const appStyle = {
-  backgroundColor: '#dc2626',
+  background: 'url(src/Images/a.svg',
   height:"900px"
 };
 function App() {
   return (
     
-     <div>
+     <div className=''>
    <div>
    
       <Router className=' '>

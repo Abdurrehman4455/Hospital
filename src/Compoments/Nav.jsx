@@ -2,6 +2,8 @@ import React from 'react'
 import { route, Routes } from '../Constants/Constants';
 import {Link} from 'react-router-dom';
 import  { useState } from 'react';
+import img from"../Images/image2vector.svg"
+
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -10,9 +12,9 @@ const Nav = () => {
   };
   return (
 
-    <nav className="flex justify-center items-center border-2 border-black bg-red-600 w-full h-[100px] px-4">
+    <nav className="flex justify-center items-center border-2 bg-red-800  rounded-full w-full h-[100px] px-4">
     <div className="text-white w-[50%]">
-      sadds
+      <img src={img } alt='a 'height={300} width={100}></img>
     </div>
     <div className="md:hidden max-sm:flex-col">
       <button
