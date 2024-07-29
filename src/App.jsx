@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes,Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes,Switch, BrowserRouter } from 'react-router-dom';
 import {routes } from './Constants/Constants';
 import Nav from './Compoments/Nav';
 import Register from './Compoments/Register'
@@ -8,27 +8,41 @@ import Login from './Compoments/Login'
 import Home from './Compoments/Home';
 import Aboutus from './Compoments/Aboutus';
 import './index.css';
+import Header from './Sections/header';
+
 const appStyle = {
   background: 'url(src/Images/a.svg',
   height:"900px"
 };
 function App() {
   return (
+   
     
      <div className=''>
-   <div>
-   
-      <Router className=' '>
+     
+      
+  
+ 
+    < BrowserRouter >
+     
       <Nav/>
-      <Routes>
+    <Routes>
       <Route path="/Aboutus" element={<Aboutus/>} />
-        <Route path="/Home" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
-      </Routes>
-    </Router>
-    </div>  
-    </div>  
+        <Route path="/" element={<Home />} />
+        </Routes>
+  
+
+    </BrowserRouter>
+    <section>
+
+    </section>
+  
+    </div>
+ 
+   
+    
 
   
     

@@ -8,7 +8,10 @@ module.exports = {
     backgroundimage:
     {
       'bg-sourcecard':"url('src/Images/a.svg')",
-    }
+    },
+    fontFamily: {
+      'roboto': ['Roboto', 'sans-serif'],
+    },
   },
   plugins: [],
 };
