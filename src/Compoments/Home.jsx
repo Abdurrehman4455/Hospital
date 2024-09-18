@@ -3,10 +3,10 @@ import Header from '../Sections/header'
 const Home = () => {
   return (
     <div className='bg-white'>
-      <section  className='roboto'>
+      <section  className='lora'>
        <Header/>
        </section>
-       zvn
+      
     </div>
   )
 }

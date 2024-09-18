@@ -9,6 +9,8 @@ import Home from './Compoments/Home';
 import Aboutus from './Compoments/Aboutus';
 import './index.css';
 import Header from './Sections/header';
+import Hero from './Sections/Hero';
+
 
 const appStyle = {
   background: 'url(src/Images/a.svg',
@@ -36,7 +38,7 @@ function App() {
 
     </BrowserRouter>
     <section>
-
+      <Hero/> 
     </section>
   
     </div>

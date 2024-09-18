@@ -11,6 +11,7 @@ module.exports = {
     },
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif'],
+      'lora': ['Lora', 'serif'],
     },
   },
   plugins: [],

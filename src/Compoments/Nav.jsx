@@ -2,7 +2,9 @@ import React from 'react'
 import { route, Routes } from '../Constants/Constants';
 import {Link} from 'react-router-dom';
 import  { useState } from 'react';
-import img from"../Images/image2vector.svg"
+import img from"../Images/hospital.svg"
+import { CiSearch } from "react-icons/ci";
+
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +39,7 @@ const Nav = () => {
 
         </li>
         <li>
-          <Link className="hover:text-red-500" to="/Aboutus">About js</Link>
+          <Link className="hover:text-red-500" to="/Aboutus">About us</Link>
         </li>
         <li>
           <Link className="hover:text-red-500" to="/login">Login</Link>
@@ -47,8 +49,11 @@ const Nav = () => {
         </li>
       </ul>
     </div>
-    <div className='ml-10 max-sm:hidden'>
+    <div className='ml-10 max-sm:hidden flex'>
       <input type='search' name='serac'placeholder='  Search' className='rounded-lg p-2  text-re'></input>
+      <div>
+     <a href='www.facebook.com' ><CiSearch  size="40px" color='white' className='ml-3'  /></a>
+      </div>
     </div>
   </nav>
 );
