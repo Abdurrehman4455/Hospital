@@ -14,7 +14,7 @@ const Header = () => {
             Our healthcare facility provides top-quality medical services, tailored to each patient's needs. With advanced technology and a skilled team, we offer comprehensive care, from routine check-ups to specialized treatments. Your health and well-being are our top priorities.
           </p>
         </div>
-        <div className="flex flex-col max-sm:flex-row gap-3 max-sm:mt-3">
+        <div className="flex  max-sm:flex-row gap-3 max-sm:mt-3">
   <button className='p-5  bg-white text-red-700 text-[14px] sm:text-[15px] rounded-lg hover:bg-red-600 hover:text-white'>
     Book Appointment
   </button>
