@@ -3,9 +3,9 @@ import React from 'react';
 const ServiceCard = () => {
   return (
     <div className='mt-5'>
-      <div className='flex justify-evenly items-center space-x-5 max-sm:flex-col max-sm:items-center'>
+      <div className='flex justify-evenly items-center space-x-5 max-sm:flex-col max-sm:items-center max-sm:space-y-3'>
         {/* Service Card 1 */}
-        <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[90%]'>
+        <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[90%] max-sm:ml-5'>
           <div className='w-16 h-16 bg-blue-100 flex justify-center items-center rounded-full mb-4'>
             <svg className='w-8 h-8 text-blue-500' fill='currentColor' viewBox='0 0 24 24'>
               {/* Add an SVG icon for medical services here */}
@@ -22,7 +22,7 @@ const ServiceCard = () => {
         </div>
 
         {/* Service Card 2 */}
-        <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[90%] max-sm:mr-5'>
+        <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[90%] max-sm:mr-2'>
           <div className='w-16 h-16  flex justify-center items-center rounded-full mb-4'>
             <svg className='w-8 h-8 text-blue-500' fill='currentColor' viewBox='0 0 24 24'>
               {/* Add an SVG icon for medical servivces here */}
@@ -39,7 +39,7 @@ const ServiceCard = () => {
         </div>
 
         {/* Service Card 3 */}
-        <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[95%]'>
+        <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[90%]'>
           <div className='w-16 h-16 bg-blue-100 flex justify-center items-center rounded-full mb-4'>
             <svg className='w-8 h-8 text-blue-500' fill='currentColor' viewBox='0 0 24 24'>
               {/* Add an SVG icon for medical services here */}
