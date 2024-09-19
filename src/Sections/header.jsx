@@ -4,7 +4,7 @@ import imgs from"../Images/hospital.svg";
 
 const Header = () => {
   return (
-    <div className='h-[300px] md:h-[400px] lg:h-[500px] rounded-lg w-full flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 justify-between bg-red-800 mt-2'>
+    <div className='h-[300px] md:h-[400px] lg:h-[500px] rounded-lg w-full flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 justify-between bg-red-800 mt-2 max-sm:h-[523px]'>
       <div className='w-full md:w-[50%] flex flex-col font-lora text-[16px] md:text-[24px] lg:text-[32px] text-white justify-center p-4'>
         <h1 className='font-lora text-2xl md:text-4xl lg:text-5xl font-bold text-white'>
           Welcome to Fast Medical Services
@@ -15,8 +15,8 @@ const Header = () => {
           </p>
         </div>
         <div>
-          <button className='px-2 py-5 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white'>Book appoiment</button>
-          <button className='px-2 py-5 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white ml-3'>Learnmore</button>
+          <button className='px-2 py-5 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white max-sm:w-[125px]'>Book appoiment</button>
+          <button className='px-2 py-5 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white ml-3 max-sm:w-[125px]'>Learnmore</button>
         </div>
       </div>
 
