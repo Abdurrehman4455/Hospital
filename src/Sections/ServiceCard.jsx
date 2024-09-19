@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceCard = () => {
   return (
     <div className='mt-5'>
-      <div className='flex justify-evenly items-center space-x-5 max-sm:flex-col max-sm:items-center max-sm:space-y-3'>
+      <div className='flex justify-evenly items-center space-x-5 max-sm:flex-col max-sm:items-center max-sm:space-y-3 max-sm:mr-4'>
         {/* Service Card 1 */}
         <div className='w-[30%] h-[20rem] p-6 border-[3px] border-red-500 rounded-lg bg-white shadow-lg flex flex-col justify-center items-center text-center max-sm:w-[90%] max-sm:ml-5'>
           <div className='w-16 h-16 bg-blue-100 flex justify-center items-center rounded-full mb-4'>
