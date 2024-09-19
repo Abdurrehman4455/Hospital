@@ -14,10 +14,15 @@ const Header = () => {
             Our healthcare facility provides top-quality medical services, tailored to each patient's needs. With advanced technology and a skilled team, we offer comprehensive care, from routine check-ups to specialized treatments. Your health and well-being are our top priorities.
           </p>
         </div>
-        <div>
-          <button className='p-4 py-3 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white max-sm:p-5 '>Book appoiment</button>
-          <button className='p-4 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white ml-3 max-sm:w-[135px]'>Learnmore</button>
-        </div>
+        <div className="flex flex-col max-sm:flex-row gap-3 max-sm:mt-3">
+  <button className='p-5  bg-white text-red-700 text-[14px] sm:text-[15px] rounded-lg hover:bg-red-600 hover:text-white'>
+    Book Appointment
+  </button>
+  <button className='p-5  bg-white text-red-700   text-[14px] sm:text-[15px] rounded-lg hover:bg-red-600 hover:text-white'>
+    Learn More
+  </button>
+</div>
+
       </div>
 
       <div className='w-full md:w-[40%] flex items-center justify-center'>
