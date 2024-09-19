@@ -15,8 +15,8 @@ const Header = () => {
           </p>
         </div>
         <div>
-          <button className='px-2 py-5 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white max-sm:w-[130px]'>Book appoiment</button>
-          <button className='px-2 py-5 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white ml-3 max-sm:w-[125px]'>Learnmore</button>
+          <button className='p-4 py-3 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white max-sm:w-[140px] '>Book appoiment</button>
+          <button className='p-4 bg-white text-red-700 w-[20%] text-[15px] rounded-full mt-3 hover:bg-red-600 hover:text-white ml-3 max-sm:w-[135px]'>Learnmore</button>
         </div>
       </div>
 
