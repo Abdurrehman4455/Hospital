@@ -16,12 +16,13 @@ const Nav = () => {
 
     <nav className="flex justify-center items-center border-2 bg-red-800  rounded-lg w-full h-[100px] px-4">
     <div className="text-white w-[50%]">
-      <img src={img } alt='a 'height={300} width={100} className='max-sm:w-[30%] max-sm:mb-2'></img>
+      <img src={img } alt='a 'height={300} width={100} className='max-sm:w-[50%] max-sm:mb-2'></img>
     </div>
     <div className="md:hidden max-sm:flex-col">
       <button
-        className="text-white"
+        className="text-white max-sm:h-[200px]"
         onClick={toggleMenu}
+        
       >
          <svg
             className="fill-current h-3 w-3"
