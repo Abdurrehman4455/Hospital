@@ -3,7 +3,7 @@ import DoctorCard from './DoctorCard';
 const Doctor = () => {
   const doctors = [
     {
-      name: 'Dr. John Doe',
+      name: 'Dr.kishorekumar',
       specialty: 'Cardiologist',
       hospital: 'John Hopkins Hospital',
       image: 'https://via.placeholder.com/100',
@@ -22,10 +22,10 @@ const Doctor = () => {
     },
   ];
   return (
-    <div className='flex justify-center items-center mt-3 text-4xl font-bold text-red-500 hover:text-red-600'>
+    <div className=' w-[]flex justify-center items-center mt-3 text-[17px] font-bold text-red-500 hover:text-red-600 max-sm:text-[15]px'>
      
      <div className="flex justify-center items-center mt-8">
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 max-sm:flex-col max-sm:space-y-2 max-sm:justify-center">
           {doctors.map((doctor, index) => (
             <DoctorCard
               key={index}
