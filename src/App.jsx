@@ -37,9 +37,7 @@ function App() {
   
 
     </BrowserRouter>
-    <section>
-      <Hero/> 
-    </section>
+   
   
     </div>
  

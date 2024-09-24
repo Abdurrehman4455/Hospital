@@ -10,6 +10,7 @@ const Header = () => {
           Welcome to Fast Medical Services
         </h1>
         <div className='flex justify-start w-full mt-4'>
+          
           <p className='text-sm md:text-base lg:text-lg'>
             Our healthcare facility provides top-quality medical services, tailored to each patient's needs. With advanced technology and a skilled team, we offer comprehensive care, from routine check-ups to specialized treatments. Your health and well-being are our top priorities.
           </p>
