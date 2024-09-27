@@ -15,9 +15,12 @@ const Home = () => {
        </section>
 
        <section>
+          <div className='flex justify-center text-4xl mt-2 font-lora font-bold text-red-500 hover:text-red-400'>
+          <h1>Expereinced Doctors</h1>
+          </div>
           <Doctor/>
        </section>
-      
+       
     </div>
   )
 }

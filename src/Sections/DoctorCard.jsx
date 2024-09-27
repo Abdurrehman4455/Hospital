@@ -14,7 +14,7 @@ const DoctorCard = ({ name, specialty, hospital, image }) => {
         <p className="mt-2 text-gray-200 text-[15px]">{hospital}</p>
       </div>
       <div className="mt-4">
-        <button className="w-full bg-white text-red-500 py-2 px-4 rounded-lg hover:bg-gray-100 transition duration-300">
+        <button className="w-full bg-white text-red-500 py-2 px-4 rounded-lg hover:bg-gray-100 transition duration-300 flex justify-center items-center">
           View Profile
         </button>
       </div>
